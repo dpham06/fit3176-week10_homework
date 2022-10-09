@@ -7,7 +7,7 @@
     "layer": [
       {
         "data": {
-          "url": "/resources/ne_110m.topojson",
+          "url": "resources/ne_110m.topojson",
           "format": {"type": "topojson", "feature": "ne_110m_wgs84_bounding_box"}
         },
         "mark": {
@@ -17,7 +17,7 @@
       },
       {
         "data": {
-          "url": "/resources/ne_110m.topojson",
+          "url": "resources/ne_110m.topojson",
           "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
         },
         "transform": [
@@ -25,7 +25,7 @@
             "lookup": "properties.NAME",
             "from": {
               "data": {
-                "url": "/resources/air_pollution_death_rates.csv"
+                "url": "resources/air_pollution_death_rates.csv"
               },
               "key": "Country",
               "fields": ["Death Rate"]
@@ -47,7 +47,7 @@
       },
       {
         "data": {
-          "url": "/resources/ne_110m.topojson",
+          "url": "resources/ne_110m.topojson",
           "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
         },
         "mark": {
@@ -58,7 +58,7 @@
       },
       {
         "data": {
-          "url": "/resources/ne_110m.topojson",
+          "url": "resources/ne_110m.topojson",
           "format": {"type": "topojson", "feature": "ne_110m_wgs84_bounding_box"}
         },
         "mark": {
